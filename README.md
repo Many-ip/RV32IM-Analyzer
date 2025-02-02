@@ -1,1 +1,1 @@
-# RV32IM-Pipeline-Analyzer
+# RV32IM-Analyzer
