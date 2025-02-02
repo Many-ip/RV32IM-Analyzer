@@ -43,5 +43,5 @@ function RV32IM_Analyzer(Tciclo) {
   console.log("Cantidad de Ciclos Perdidos por riesgo de datos:",(ciclosPerdidos- ciclosPerdidosControl));
   console.log("CPI = (ciclosCPU/N_intrucciones):",(ciclosCPU/countInstrucciones));
   console.log("TCPU = ciclosCPU*Tciclo:",(T_CPU));
-  console.log("MIPS = N_instrucciones / (TCPU *10^6) :", (countInstrucciones / (T_CPU * Math.pow(10, -9) * Math.pow(10, 6))));
+  console.log("MIPS = N_instrucciones / ((TCPU * 10^-9) * 10^6) :", (countInstrucciones / (T_CPU * Math.pow(10, -9) * Math.pow(10, 6))));
   }
