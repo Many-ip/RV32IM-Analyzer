@@ -54,6 +54,6 @@ Cantidad de Ciclos Perdidos: 45
 Cantidad de Ciclos Perdidos por riesgo de control: 21
 Cantidad de Ciclos Perdidos por riesgo de datos: 24
 CPI = (ciclosCPU/N_instrucciones): 1.18
-TCPU = ciclosCPU*Tciclo: 614
-MIPS = N_instrucciones / (TCPU *10^6) : 420.1954
+TCPU = ciclosCPU*Tciclo: 614 ns
+MIPS = N_instrucciones / ((TCPU* *10^-9) *10^6) : 420.1954
 ```
